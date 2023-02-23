@@ -1,1 +1,91 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+/*********
+<!-- NEWSPAPER CONTAINER -->
+*********/
+
+
+.container {
+    width:700px;
+    border-radius: 2px;
+    box-shadow: 2px 2px 4px #ddd;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    padding-left:20px; 
+}
+/*********
+<!--header-->
+**********/
+h1{
+ font-family: 'Abril Fatface';
+ text-align: center;
+}
+h5{
+    color: red;
+}
+
+/********
+<!-- navigation -->
+*********/
+body{
+    
+}
+ul {
+    list-style-type: none;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-decoration: none;
+}
+li {
+    color:black
+    margin-left: 0;
+    display:inline-block;
+    font-family:'Abril Fatface';    
+}
+
+ul li{
+    padding-left: 50px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+a:link{
+    text-decoration: none;
+    
+}
+a:visited{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+a:active{
+    text-decoration: none;
+}
+/*******
+<!-- more articles -->
+********/
+[class$=more-articles]{
+    border-top:1px black;
+    text-align: left;
+    display:inline-block; width: 500px;
+
+}
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
